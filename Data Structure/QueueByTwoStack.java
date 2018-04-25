@@ -1,6 +1,11 @@
 public class QueueByTwoStack {
-  public Solution() {
-    // Write your solution here.
+	//一个stack专门用来储存，一个专门用来弹出
+	private LinkedList<Integer> in;
+	private LinkedList<Integer> out;
+	
+  public ueueByTwoStack() {
+    in = new LinkedList<Integer>();
+	out = new LinkedList<Integer>();
   }
   
   public Integer poll() {
@@ -20,6 +25,6 @@ public class QueueByTwoStack {
   }
   
   public boolean isEmpty() {
-    return false;
+  
   }
 }
